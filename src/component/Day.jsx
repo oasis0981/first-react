@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import Word from "./Word";
+import Word from "./Word.tsx";
 import useFetch from "../hooks/useFetch";
 
 export default function Day() {
