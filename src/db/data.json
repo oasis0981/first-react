@@ -15,6 +15,10 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
     }
   ],
   "words": [
@@ -75,18 +79,39 @@
       "id": 10
     },
     {
-      "day": "4",
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": false,
-      "id": 11
-    },
-    {
       "day": "3",
       "eng": "apple",
       "kor": "사과",
       "isDone": false,
       "id": 12
+    },
+    {
+      "day": "1",
+      "eng": "phone",
+      "kor": "전화기",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "eng": "coffee",
+      "kor": "커피",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "2",
+      "eng": "cake",
+      "kor": "케이크",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "day": "5",
+      "eng": "piano",
+      "kor": "피아노",
+      "isDone": false,
+      "id": 17
     }
   ]
 }

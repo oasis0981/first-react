@@ -1,11 +1,17 @@
-import dummy from "../db/data.json";
 import { Link } from "react-router-dom";
+import useFetch from "../hooks/useFetch";
 
 export default function DayList() {
-  console.log(dummy);
+  // API에서 리스트를 가져와 바꿔주는 방식의 state 생성
+  const days = useFetch("http://localhost:3001/days");
+
+  if (days.length === 0) {
+    return <span>Loading...</span>;
+  }
+
   return (
     <ul className="list_day">
-      {dummy.days.map((day) => (
+      {days.map((day) => (
         <li key={day.id}>
           <Link to={`/day/${day.day}`}>Day {day.day}</Link>
         </li>
