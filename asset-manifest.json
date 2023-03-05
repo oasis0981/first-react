@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/voca/static/css/main.8c5f9c23.css",
+    "main.js": "/voca/static/js/main.1588b641.js",
+    "index.html": "/voca/index.html",
+    "main.8c5f9c23.css.map": "/voca/static/css/main.8c5f9c23.css.map",
+    "main.1588b641.js.map": "/voca/static/js/main.1588b641.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c5f9c23.css",
+    "static/js/main.1588b641.js"
+  ]
+}
